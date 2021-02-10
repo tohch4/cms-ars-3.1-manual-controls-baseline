@@ -1,8 +1,8 @@
 name: cms-ars-3.1-manual-controls-baseline
 title: cms-ars-3.1-manual-controls-baseline
-maintainer: MITRE InSpec Team
-copyright: The MITRE Corporation, 2018
-copyright_email: .
+maintainer: Alexander Stein
+copyright: Alexander Stein
+copyright_email: astein@flexion.us
 summary: CMS ARS 3.1 Manual Controls Baseline InSpec Profile
 license: Apache-2.0
 Description: An InSpec Manual Compliance Attestation profile
