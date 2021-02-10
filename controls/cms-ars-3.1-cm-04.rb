@@ -1,5 +1,5 @@
 control 'CMS-ARS-3.1-CM-04' do
-  title "Access Control Policy and Procedures"
+  title "Configuration Management"
   
   desc  "Control:
   The organization analyzes changes to the information system to determine potential security and privacy impacts prior to change implementation. Activities associated with configuration changes to the information system are audited."
