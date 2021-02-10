@@ -16,12 +16,12 @@ docker run -v $(pwd):/share \
         "inspec-reporter-json-hdf": {
             "attestations": [
                 {
-                    "control_id": "CMS-ARS-3.1-AC-01",
-                    "explanation": "Examined ARS 3.1, IS2P2, and HHS parent Access Control policy documents and interviewed staff to confirm that these are still applicable, understood, and applied to our system.",
+                    "control_id": "CMS-ARS-3.1-CM-04",
+                    "explanation": "Examined ARS 3.1, IS2P2, and HHS parent Configuration Management policy documents alongside this system's available security impact analyses, if any.",
                     "frequency": "annually",
                     "status": "passed",
-                    "updated": "2020-1-19",
-                    "updated_by": "John Doe, ISSO"
+                    "updated": "2021-2-10",
+                    "updated_by": "Alexander Stein, Security Engineer"
                 }
             ]
         }
