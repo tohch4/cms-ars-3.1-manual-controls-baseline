@@ -3,7 +3,11 @@
 #### To demonstrate https://github.com/mitre/inspec-reporter-json-hdf for attestation against manual controls
 
 ```
-inspec exec https://github.com/ejaronne/cms-ars-3.1-manual-controls-baseline/archive/main.tar.gz --reporter cli hdf:cms-ars-3.1-manual-controls-baseline_01142021A.json --config attestation.json
+docker pull chef/inspec:4.22.0 
+docker run -v $(pwd):/share \
+    --entrypoint /bin/sh \
+    chef/inspec:4.22.0 \
+    -c "inspec plugin --chef-license=accept install inspec-reporter-json-hdf && inspec exec https://github.com/tohch4/cms-ars-3.1-manual-controls-baseline/archive/cm-04-example.tar.gz --reporter cli hdf:samples/cms-ars-3.1-manual-controls-baseline_01142021A.json --config samples/attestation.json"
 ```
 #### See sample attestations file content below. (See attestation file in /samples.)
 ```
